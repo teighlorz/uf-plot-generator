@@ -1,4 +1,50 @@
 body {
-    background-color: rgb(96, 96, 150);
-    color: white;
+    background-color: #013A63;
+    color: #A9D6E5;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
 }
+
+#main {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    background-color: hsla(195, 54%, 78%, 0.301);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+h1, button {
+    font-family: "Metamorphous";
+}
+
+span {
+    color:#468FAF;
+}
+
+#plot {
+    color: #A9D6E5;
+}
+
+#somethinghappens, #yourprotagonist, #pursuesagoal, #theantagonist, #providesopposition {
+    font-weight: bold;
+    color: #A9D6E5;
+    -webkit-text-stroke: 1px #61A5C2;
+}
+
+button {
+    border:3px #61A5C2 solid;
+    background-color:#013A63;
+    color: #A9D6E5;
+    margin: 4px;
+    font-size: 1.5rem;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+}
+
+ button:active{
+    background-color:#A9D6E5;
+    color:#013A63;
+ }
